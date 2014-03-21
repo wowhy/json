@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program01", "Program01\Program01.csproj", "{57BCCE6C-B686-45D9-97C8-437CD8021293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonHelper", "JsonHelper\JsonHelper.csproj", "{66B3B4F1-CC5C-49B1-B516-678802D6D4F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57BCCE6C-B686-45D9-97C8-437CD8021293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BCCE6C-B686-45D9-97C8-437CD8021293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BCCE6C-B686-45D9-97C8-437CD8021293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BCCE6C-B686-45D9-97C8-437CD8021293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B3B4F1-CC5C-49B1-B516-678802D6D4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B3B4F1-CC5C-49B1-B516-678802D6D4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B3B4F1-CC5C-49B1-B516-678802D6D4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B3B4F1-CC5C-49B1-B516-678802D6D4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
