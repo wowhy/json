@@ -1,4 +1,4 @@
 json
 ====
-useage:
-	var obj = JSON.ToObject<T>(string);
+####useage:
+	var obj = JSON.ToObject<type>(string);
