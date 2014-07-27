@@ -106,11 +106,6 @@ namespace Program01
             Takes(action1);
             Takes(action2);
             Takes(action3);
-
-
-
-            
-            
         }
 
 
@@ -118,7 +113,7 @@ namespace Program01
         {
             //test(); return;
 
-            test2(); return;
+            //test2(); return;
 
             //var data1 = "   [1 , 2 , 3 , 4    , 5,7.12,3.14  ]";
             //var data2 = @"[""Hello, World!\\"", "" \"" ""]";
@@ -142,13 +137,13 @@ namespace Program01
             //var result = parser.Parse();
             //Console.WriteLine(result);
 
-            Takes(() =>
-            {
-                for (int i = 0; i < counts; i++)
-                {
-                    var demo = Newtonsoft.Json.JsonConvert.DeserializeObject<Demo>(data);
-                }
-            });
+            //Takes(() =>
+            //{
+            //    for (int i = 0; i < counts; i++)
+            //    {
+            //        var demo = Newtonsoft.Json.JsonConvert.DeserializeObject<Demo>(data);
+            //    }
+            //});
 
             Takes(() =>
             {
@@ -159,9 +154,7 @@ namespace Program01
             });
 
             // Console.ReadKey();
-
-
-        }
+	}
 
         static void Takes(Action action)
         {
